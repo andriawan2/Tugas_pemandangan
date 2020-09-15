@@ -26,8 +26,6 @@ fill(#0000FF);
   stroke(252,252,252);
  strokeWeight(2);
  
- line(740,500,810,500);
- line(830,500,900,500);
 
 
 noStroke();
