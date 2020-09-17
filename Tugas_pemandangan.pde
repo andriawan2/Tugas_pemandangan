@@ -73,15 +73,9 @@ ellipse(815,-100,75,40);
 ellipse(250,-100,80,35);
 ellipse(300,-100,80,45);
 
-void perahu(float p, float k){
- x = x+ 0.1;
- if (x>height){
+
  fill(1,90,205);
- x = x*-0.90;
- }
-}  
 rect(815,250,100,50); 
 ellipse(815,300,30,30); 
 ellipse(815,300,30,30);
-
 }
