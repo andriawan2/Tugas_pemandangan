@@ -19,7 +19,7 @@ void draw()
      triangle(50,300,550,300,400,120);
      
 fill(#0000FF);
- rect(250,100,150,600);
+ rect(450,190,100,400);
  
 fill(#0000FF); 
  rect(0,450,1000,100);
@@ -29,6 +29,7 @@ fill(#0000FF);
 
 
 noStroke();
+
 
 fill(#369820);
 triangle(850,350,890,350,870,320);
@@ -55,6 +56,10 @@ triangle(200,390,240,390,220,360);
 fill(#293E25);
 rect(215,390,10,20);
 
+y = y+0.01;
+ translate(y-450,height/4-2*size/2);
+fill(222+50*d,222,0);
+ellipse(900,05,100,100);
 y = y + 0.8;
   translate(y-200, height/2-2*size/2);
 fill(#E8EFF5);
@@ -67,5 +72,16 @@ ellipse(780,-100,80,55);
 ellipse(815,-100,75,40);
 ellipse(250,-100,80,35);
 ellipse(300,-100,80,45);
+
+void perahu(float p, float k){
+ x = x+ 0.1;
+ if (x>height){
+ fill(1,90,205);
+ x = x*-0.90;
+ }
+}  
+rect(815,250,100,50); 
+ellipse(815,300,30,30); 
+ellipse(815,300,30,30);
 
 }
